@@ -19,7 +19,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
  <!--(Sidebar - hidden on small screens)-->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center ">
+  <nav class="w3-sidebar  w3-small w3-hide-small w3-center w3-card-4">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-ripple">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -37,7 +37,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p>CONTACT</p> 
   </a> -->
   <div class="w3-display-bottommiddle w3-padding-16 w3-center"><a class="fa fa-linkedin w3-hover-opacity w3-xxxlarge w3-animate-left w3-hide-small" href="https://www.linkedin.com/in/cory-williams-5672841b0/" style="color: #72f8edc5;"></a></div>
-</nav>
+</nav> 
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium w3-opacity" id="myNavbar">
@@ -54,8 +54,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header/Home -->
   <header class="w3-container w3-padding-64 w3-center " id="home">
     <a class="fa fa-linkedin w3-hover-opacity w3-xlarge w3-right w3-animate-right w3-hide-large w3-hide-medium" style="color: rgb(5, 116, 212);" href="https://www.linkedin.com/in/cory-williams-5672841b0/"></a>
-    <h1 class="w3-jumbo" style="color: #e3e0f5;" ><span class="w3-hide-small"></span> Cory J. Williams</h1>
-    <img src="picOfMe.jpg" class="w3-circle w3-image w3-hover-grayscale w3-animate-zoom w3-hover-shadow w3-card" alt="picOfMe" style="width:300px">
+    <h1 class="w3-jumbo w3-animate-opacity" style="color: #e3e0f5;" >Cory J. Williams</h1>
+    <img src="picOfMe.jpg" class="w3-circle w3-image w3-hover-grayscale w3-animate-opacity w3-hover-shadow w3-card" alt="picOfMe" style="width:300px">
     <h4 style="color: #2effee79;" class="w3-animate-right">Web Developer</h4>
   </header>
 
@@ -68,9 +68,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       I am constantly striving to learn new things and improve. I follow industry news, regularly tinker with new technologies, and read books and blogs to keep my skills up to date.
     </p>
     <br>
-    <div class="w3-row w3-padding-64 w3-section w3-content">
     <h2 style="color:#e3e0f5;">My Skills</h2>
     <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row w3-padding w3-section w3-content w3-card-4">
     <p class="fa fa-html5" style="color:#2effee79;">HTML5</p> 
     <br>
     <p class="w3-wide fa fa-css3" style="color:#2effee79;">CSS3</p>
@@ -80,10 +80,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p class="w3-wide fa fa-github" style="color:#2effee79;">Git/Github</p>
     <br>
   </div>
-    <div class="w3-row w3-center w3-padding-32 w3-section w3-content">
-      <div class="w3-quarter w3-section w3-left-align">
-        <h2 class="w3-justify" style="color: #e3e0f5;">My Code</h2>
-        <hr style="width:200px" class="w3-opacity">
+
+    <h2 class="w3-justify" style="color: #e3e0f5;">My Code</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row w3-center w3-padding-32 w3-section w3-content  w3-card-4">
+      <div class="w3-quarter w3-section w3-left-align w3-center">
         <a href='https://github.com/MistrDev'><button class='w3-btn w3-round fa fa-scor w3-jumbo fa fa-github w3-pulse w3-border' style="color: #e3e0f5;"></button></a>
         <br>
         <p style="color: #2effee79;">This is my Github. I have several repositorys and multiple days of commits to my projects.</p>
@@ -96,29 +97,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- End About Section -->
 </div>
   <!-- Project Section -->
-  <div class="w3-padding-32 w3-content" id="projects">
+  <div class="w3-padding-32 w3-content w3-padding-64" id="projects">
     <h2 style="color: #e3e0f5;">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
+      <div class="w3-content w3-center w3-card-4 w3-padding-16">
         <img src="scoreKeeper.png" alt="example of my score keeper app" class="w3-image w3-left-align w3-round" style="width:350px;">
-        <p style="color: #2effee79;">This is a score keeper I made using HTML, CSS & Javascript.</p>
-        <p style="color: #2effee79;">I used my knowledge with the DOM and CSS framework BULMA to render a fully functional score board!</p>
+        <p style="color: #26cac2b2;">This is a score keeper I made using HTML, CSS & Javascript.</p>
+        <p style="color: #26cac2b2;">I used my knowledge with the DOM and CSS framework BULMA to render a fully functional score board!</p>
         <a href='https://www.mistrdev.dev/scoreKeeper/' class="w3-margin-right"><button class="w3-btn w3-border" style="color:#e3e0f5">View Live</button></a> 
         <a href='https://github.com/MistrDev/scoreKeeper' class="w3-margin-left"><button class="w3-btn w3-border" style="color: #e3e0f5;">View Code</button></a>
       </div>
-
+    
       <!--Added another div for the project section have to complete a second project first-->
-      <div class="w3-half">
-        <img src="scoreKeeper.png" alt="example of my score keeper app" class="w3-image w3-left-align w3-round" style="width:350px;">
-        <p style="color: #2effee79;">This is a score keeper I made using HTML, CSS & Javascript.</p>
-        <p style="color: #2effee79;">I used my knowledge with the DOM and CSS framework BULMA to render a fully functional score board!</p>
-        <a href='https://www.mistrdev.dev/scoreKeeper/' class="w3-margin-right"><button class="w3-btn w3-border" style="color:#e3e0f5">View Live</button></a> 
-        <a href='https://github.com/MistrDev/scoreKeeper' class="w3-margin-left"><button class="w3-btn w3-border" style="color: #e3e0f5;">View Code</button></a>
+      <div class="w3-content w3-card-4 w3-center w3-padding-16">
+        <img src="downtown-okc.jpg" alt="example of my score keeper app" class="w3-image w3-left-align w3-round" style="width:350px;">
+        <p style="color: #26cac2b2;">This is a placeholder for a future project..</p>
+        <p style="color: #26cac2b2;">Coming Soon..</p>
+        <a href='' class="w3-margin-right"><button class="w3-btn w3-border" style="color:#e3e0f5">View Live</button></a> 
+        <a href='' class="w3-margin-left"><button class="w3-btn w3-border" style="color: #e3e0f5;">View Code</button></a>
       </div>
     </div>
    </div>
-  <!-- End Project Section -->
+
+  <!-- End Page Content -->
   </div>
 
   <!-- Contact Section 
@@ -150,7 +152,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
       <p class="w3-xlarge w3-serif w3-center w3-small"><i>"The more you know, the more you realize you dont know."</i></p>
       <p class="w3-center w3-small">- Some wise developer</p>
-  <!-- End footer -->
   </footer>
 
 <!-- END PAGE CONTENT -->
