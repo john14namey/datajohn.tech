@@ -1,0 +1,15 @@
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+@media only screen and (max-width: 600px) {
+    #main {margin-left: 0}
+}
+
+.skill {
+    color:#e3e0f591;
+}
+
+body {
+    background-image: linear-gradient(to left, #022e2ebb 0%, rgba(47, 48, 47, 0.466) 100%);
+}
