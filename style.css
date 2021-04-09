@@ -6,10 +6,22 @@ body, h1,h2,h3,h4,h5,h6 {
     #main {margin-left: 0}
 }
 
-.skill {
-    color:#e3e0f591;
+p {
+    color:#27dbf3c0;
 }
 
 body {
     background-image: linear-gradient(to left, #022e2ebb 0%, rgba(47, 48, 47, 0.466) 100%);
+}
+
+h1 {
+    color: rgb(231, 225, 233);
+}
+
+h2 {
+    color:rgb(231, 225, 233);
+}
+
+h4 {
+    color: rgb(231, 225, 233);
 }
