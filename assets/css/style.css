@@ -428,6 +428,7 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  
   }
 
 .services .icon-box .icon {
@@ -555,3 +556,4 @@ section {
 .projectButtons {
   margin: 5px;
 }
+
