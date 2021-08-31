@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   position: relative;
   background : url(/imgs/picOfMe.jpg) no-repeat center center;
   background-size: cover;
